@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Entry point
-*Description: 'get the last degiti of a number '
+*main - Entry point
+*Description: 'get the last degit of a number '
 * Return: always 0
 */
 int main(void)
