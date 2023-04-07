@@ -1,19 +1,17 @@
-# inclure  " main.h "
-/* *
-* _puts_recursion - imprime une chaîne
-* @s:chaîne
-* Retour : nul
+#include "main.h"
+/**
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
  */
-void  _puts_recursion ( char *s)
+void _puts_recursion(char *s)
 {
-si (*s)
-{
-	_putchar (*s);
-	_puts_recursion (s + 1 );
-}
-autre
-{
-	_putchar ( ' \n ' );
-}
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
 
+	else
+		_putchar('\n');
 }
