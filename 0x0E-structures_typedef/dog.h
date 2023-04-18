@@ -6,7 +6,7 @@
 * @âge : Deuxième membre
 * @owner : troisième membre
 */
-struct chien
+struct dog
 {char *name;
 float age;
 char *owner ;
