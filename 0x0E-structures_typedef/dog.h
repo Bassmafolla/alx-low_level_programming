@@ -1,10 +1,10 @@
 # ifndef DOG_H
 # define DOG_H
 /**
-* struct dog - Informations de base sur un chien
-* @nom : premier membre
-* @âge : Deuxième membre
-* @owner : troisième membre
+* struct dog - A dog's basic info
+* @name : first member
+* @age : Second member
+* @owner : Third member
 */
 struct dog
 {
@@ -17,8 +17,8 @@ char *owner;
 *
 */
 typedef struct dog dog_t;
-void init_dog (struct dog *d, char *name, float age, char *owner);
-void print_dog (struct dog *d);
-dog_t *new_dog (char *nom, float age, char *owner);
-void free_dog (dog_t *d);
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *nom, float age, char *owner);
+void free_dog(dog_t *d);
 # endif
