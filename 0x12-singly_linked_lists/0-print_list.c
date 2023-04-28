@@ -1,22 +1,22 @@
 #include <stdio.h>
-#include "listes.h"
+#include "lists.h"
 /**
-* print_list - imprime tous les éléments d'une liste chaînée
-* @h : pointeur vers la liste list_t à imprimer
+* print_list - prints all the elements of a linked list
+* @h: pointer to the list_t list to print
 *
-* Retour : le nombre de nœuds imprimés
+* Return: the number of nodes printed
 */
 size_t print_list(const list_t *h)
 {
-taille_t s = 0 ;
-tandis que (h)
+size_t s = 0;
+while (h)
 {
-si (!h->chaîne)
-printf("[0] (néant)\n");
-autre
+if (!h->str)
+printf("[0] (nil)\n");
+else
 printf("[%u] %s\n", h->len, h->str);
-h = h->suivant ;
-s++ ;
+h = h->next;
+s++;
 }
-Retour);
+return (s);
 }
