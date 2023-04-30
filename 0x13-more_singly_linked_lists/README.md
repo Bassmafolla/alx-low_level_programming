@@ -46,3 +46,4 @@ Définit la tête sur NULL. 14. Trouvez la boucle
 utilisant un maximum de deux variables. Si aucune boucle n'est trouvée - renvoie NULL. Sinon -
 renvoie l'adresse du nœud où la boucle commence.
 
+
